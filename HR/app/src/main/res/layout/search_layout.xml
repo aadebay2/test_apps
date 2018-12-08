@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/button_search_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"/>
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:layout_weight="60"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/All_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Employees"
+        android:layout_weight="5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Profile Pic"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/search_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID:   " />
+
+                <TextView
+                    android:id="@+id/search_id_field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age:   " />
+
+                <TextView
+                    android:id="@+id/search_age_field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salary:   " />
+
+                <TextView
+                    android:id="@+id/search_salary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/id"
+            android:layout_width="match_parent"
+            android:layout_weight="25"
+            android:layout_height="30dp" />
+        <TextView
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/name"
+            android:layout_width="match_parent"
+            android:layout_weight="25"
+            android:layout_height="30dp" />
+        <TextView
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/age"
+            android:layout_width="match_parent"
+            android:layout_weight="25"
+            android:layout_height="30dp" />
+        <TextView
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/wage"
+            android:layout_width="match_parent"
+            android:layout_weight="25"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewAlpha"
+        android:layout_width="match_parent"
+        android:layout_height="387dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_weight="80"/>
+
+    <Button
+        android:id="@+id/search_back_to_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Top"
+        android:layout_weight="5"/>
+
+</LinearLayout>

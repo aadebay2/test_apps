@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HR</string>
+    <string name="name">Name</string>
+    <string name="id">ID</string>
+    <string name="age">Age</string>
+    <string name="salary">Salary</string>
+    <string name="wage">Wage</string>
+    <string name="sign">$</string>
+    <string name="all">All Employees</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+        <TextView
+            android:id="@+id/search_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:text="@string/id"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/search_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/search_age"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:text="@string/age"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/search_wage"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:text="@string/wage"
+            android:textAlignment="center" />
+
+
+</LinearLayout>
